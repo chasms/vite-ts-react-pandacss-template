@@ -16,12 +16,13 @@ const logo = css({
     filter: "drop-shadow(0 0 2em #646cffaa)",
   },
 });
+
 const react = css({
   animation: "spin infinite 20s linear",
+});
 
-  _hover: {
-    filter: "drop-shadow(0 0 2em #61dafbaa)",
-  },
+const packageNames = css({
+  fontSize: "2em",
 });
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
           <p className={pandaEmoji}>🐼</p>
         </a>
       </div>
-      <h1>Vite + TS + React + PandaCSS</h1>
+      <h1 className={packageNames}>Vite + TS + React + PandaCSS</h1>
     </>
   );
 }
