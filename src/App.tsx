@@ -1,28 +1,28 @@
-import { css, cx } from "../styled-system/css";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { css, cx } from '../styled-system/css';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
 
-const logosWrapper = css({ display: "flex", justifyContent: "center" });
+const logosWrapper = css({ display: 'flex', justifyContent: 'center' });
 
-const pandaEmoji = css({ fontSize: "4em", lineHeight: "0.7em" });
+const pandaEmoji = css({ fontSize: '4em', lineHeight: '0.7em' });
 
 const logo = css({
-  height: "6em",
-  padding: "1.5em",
-  willChange: "filter",
-  transition: "filter 300ms",
+  height: '6em',
+  padding: '1.5em',
+  willChange: 'filter',
+  transition: 'filter 300ms',
 
   _hover: {
-    filter: "drop-shadow(0 0 2em #646cffaa)",
+    filter: 'drop-shadow(0 0 2em #646cffaa)',
   },
 });
 
 const react = css({
-  animation: "spin infinite 20s linear",
+  animation: 'spin infinite 20s linear',
 });
 
 const packageNames = css({
-  fontSize: "2em",
+  fontSize: '2em',
 });
 
 function App() {
@@ -35,12 +35,7 @@ function App() {
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className={cx(logo, react)} alt="React logo" />
         </a>
-        <a
-          href="https://panda-css.com/"
-          target="_blank"
-          rel="noreferrer"
-          className={logo}
-        >
+        <a href="https://panda-css.com/" target="_blank" rel="noreferrer" className={logo}>
           <p className={pandaEmoji}>🐼</p>
         </a>
       </div>

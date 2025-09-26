@@ -4,6 +4,14 @@
       "type": "stdio",
       "command": "npx",
       "args": ["@eslint/mcp@latest"]
+    },
+    "Playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--extension"]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"]
     }
   }
 }

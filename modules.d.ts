@@ -1,1 +1,1 @@
-declare module "@pandacss/eslint-plugin";
+declare module '@pandacss/eslint-plugin';
