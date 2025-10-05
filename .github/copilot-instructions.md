@@ -15,6 +15,14 @@ This is a React TypeScript Vite PandaCSS project.
 - When adding/modifying/clarifying product details: always update `PRODUCT_REQUIREMENTS.md` (list features, add and adjust product requirements and acceptance criteria, mark progress) and relevant docs (`README.md` for general information, and when appropriate, larger forays into more specific documentation should be organized into new markdown files under docs/). Include rationale for architectural decisions and implementation details.
 - When new instructions are given that could apply to documentation, code style, and or general guidelines for how copilot should behave, please ask the user about adding them to this document to codify them as instructions going forward.
 
+## Debugging and Development Tools
+
+- **Prefer MCP tools over bash commands** for debugging and development tasks
+- Use `mcp_eslint_lint-files` for code linting instead of `npm run lint`
+- Use Chrome DevTools MCP for browser testing and debugging UI interactions
+- Only fall back to terminal commands when specific MCP tools are not available
+- MCP tools provide better integration, structured output, and error handling
+
 ## Code Style
 
 - Use descriptive names for variables and functions, and avoid abbreviations and acronyms in variable, function, and type names; prefer fully spelled-out descriptive identifiers (e.g., `oscillatorNode` not `osc`, `outputGainNode` not `out`).

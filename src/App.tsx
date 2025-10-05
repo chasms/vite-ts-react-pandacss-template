@@ -1,6 +1,7 @@
 import { css, cx } from '../styled-system/css';
 import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import typescriptLogo from './assets/typescript-logo.png';
+import viteLogo from './assets/vite.svg';
 
 const logosWrapper = css({ display: 'flex', justifyContent: 'center' });
 
@@ -31,6 +32,9 @@ function App() {
       <div className={logosWrapper}>
         <a href="https://vite.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className={logo} alt="Vite logo" />
+        </a>
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+          <img src={typescriptLogo} className={logo} alt="Typescript logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className={cx(logo, react)} alt="React logo" />
