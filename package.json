@@ -10,6 +10,9 @@
     "lint": "eslint .",
     "lintfix": "eslint . --fix",
     "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
     "typecheck": "tsc --project tsconfig.app.json",
     "typewatch": "tsc --project tsconfig.app.json --watch"
   },
@@ -40,6 +43,7 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2",
     "vite-plugin-devtools-json": "^1.0.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.10"
   }
 }
